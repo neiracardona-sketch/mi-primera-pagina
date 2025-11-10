@@ -4,7 +4,7 @@
 **Software**:*es la parte lógica o intangible de una computadora, es decir, los programas, aplicaciones y sistemas que le dicen al hardware qué hacer, ejemplo: el software es el cerebro que le da órdenes*.
 **Los Lenguajes de Programación**:*es un conjunto de instrucciones y reglas que las personas usamos para decirle a una computadora qué hacer, los lenguajes de programacion usan palabras, simbolos y reglas que los programadores entienden con facilidad*
 
-** Python**:*Fácil de entender, ejemplo:print("Hola, mundo")
+**Python**:*Fácil de entender, ejemplo:print("Hola, mundo")
 Esto le dice a la computadora que muestre el texto “Hola, mundo” en la pantalla*.
 
 **Variables, valores y oeperadores**:
