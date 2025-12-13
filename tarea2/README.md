@@ -33,17 +33,20 @@ print ("|\n" * (pasos_abajo ) + tortuga)
 *Enunciado:* 
 Simula el movimiento: avanzar y luego girar a la derecha para volver a avanzar.
 Pide al usuario los paso adelante y abajo
-tortuga = "v"
+tortuga = ">"
+tortuga_abajo= "v"
 pasos_adelante= int (input("Ingrese el número de pasos hacia adelante: "))
-print ("_ " * pasos_adelante)
+print ("- " * (pasos_adelante )+tortuga )
 espacios = "  " * pasos_adelante 
 camino_abajo = espacios + "|\n"
 pasos_abajo= int (input("Ingrese el número de pasos hacia abajo: "))
-print(camino_abajo * (pasos_abajo - 1), end='')
-print(espacios + tortuga)
+print(camino_abajo * (pasos_abajo), end='')
+print(espacios+tortuga_abajo)
+
 
 ### ✅ Solución en Python
-<img width="698" height="187" alt="image" src="https://github.com/user-attachments/assets/d31ce8f7-9933-46cf-a899-13beaa142b17" />
+<img width="694" height="188" alt="image" src="https://github.com/user-attachments/assets/89b3327a-05ee-454b-b73e-e073ba439a71" />
+
 
 
 ## 🐢 Reto 4: Encapsular con funciones
